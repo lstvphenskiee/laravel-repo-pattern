@@ -7,15 +7,15 @@ interface ProductRepositoryInterface
     // Getting all products
     public function getProduct();
 
-    // Find product by it ID
-    public function findProduct($product_id);
+    // Get Product by ID
+    public function findProduct($id);
 
     // Create new Product
-    public function createProduct(array $product_data);
+    public function createProduct(array $data);
 
     // Update product
-    public function updateProduct($product_id, array $product_data);
+    public function updateProduct($id, array $data);
 
     // Delete product
-    public function deleteProduct($product_id);
+    public function deleteProduct($id);
 }
